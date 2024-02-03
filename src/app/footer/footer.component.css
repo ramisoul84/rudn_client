@@ -4,6 +4,7 @@ footer {
   right: 0;
   bottom: 0;
   height: 20px;
-  background-color: darkblue;
-  color: #fff;
+  background-color: lightgray;
+  border-top: 2px solid var(--color-dark);
+  color: var(--color-dark);
 }

@@ -1,5 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --color-dark: #1f1f38;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  width: 400px;
+  padding: 10px;
+  margin: 20px auto;
+  border: 4px solid var(--color-dark);
+  border-radius: 10px;
+  background-color: lightgray;
+}
+input {
+  padding: 5px;
+  border: 2px solid var(--color-dark);
+  border-radius: 4px;
+}
+label {
+  font-weight: bold;
+}
+.form-title {
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.submit {
+  margin: 5px;
+  width: 100px;
+  padding: 5px;
+  border: 2px solid var(--color-dark);
+  border-radius: 4px;
+  background-color: var(--color-dark);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: gray;
+  cursor: default;
 }

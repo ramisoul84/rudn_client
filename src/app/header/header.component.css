@@ -3,6 +3,21 @@ header {
   left: 0;
   right: 0;
   height: 40px;
-  background-color: darkblue;
+  background-color: var(--color-dark);
   color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  text-align: center;
+  line-height: 40px;
+}
+.logo {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 40px;
+  text-align: left;
+  cursor: pointer;
+  width: fit-content;
+  margin-left: 10px;
+}
+.logo:hover {
+  color: lightblue;
 }
